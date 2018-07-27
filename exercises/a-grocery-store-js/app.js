@@ -11,7 +11,7 @@ var shopper = {
 
 shopper.method(shopper.agsee)
 
-method: function () {
+// method: function () {
     //do the stuff
-}
+
 

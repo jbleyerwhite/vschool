@@ -1,0 +1,42 @@
+h1 {
+    position: relative;
+    font:  Helvetica;
+    font-weight: bold;
+    left:  80px;
+    color: slategrey;
+}
+
+#calc {
+    position:  relative;
+    height: 600px;
+    width: 400px;
+    border-radius: 5%;
+    background-color: blueviolet;
+    border: 10px solid black;
+}
+
+#display {
+    position: absolute;
+    size: 30px;
+    font-weight: bold;
+    height: 100px;
+    width:  300px;
+    background-color: aliceblue;
+    left: 50px;
+    top: 50px;
+}
+
+.inputs {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    background-color: aqua;
+}
+
+#addition {
+    padding-bottom: 20px;
+}
+
+#subtraction {
+    padding-bottom: 20px;
+}

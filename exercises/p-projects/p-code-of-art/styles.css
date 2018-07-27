@@ -1,0 +1,54 @@
+body {
+    font-family: "arial, sans-serif;
+    color: black;
+   
+}
+
+.navbar li {
+    poasition: fixed;
+    font-family: arial;
+    background-color: blueviolet;
+    color: cadetblue;
+    font-size: 40px; 
+    list-style-type: none;
+    text-decoration: none;
+   
+}
+
+.welcome {
+    text-decoration: underline;
+    font-family: arial;
+    color: cadetblue;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+p {
+    font-family: arial;
+    font-size: 20px;
+    color: black;
+}
+
+.list p {
+    font-size: 25px;
+    color: blueviolet
+}
+
+
+.code-photo {
+    max-width: 100%;
+    float: bottom;
+}
+
+.list {
+    clear: both;
+    color: green;
+    font-family: arial;
+    font-size: 20px;
+    font-family-family: arial;
+}
+
+.fake-link {
+    text-decoration: underline;
+    cursor: pointer;
+}

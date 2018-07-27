@@ -1,0 +1,288 @@
+body {
+    background-color:  grey}
+
+.flag {
+    background-color: rgba(0, 0, 0, 0.034);
+    height: 300px;
+    width: 500px;
+    margin-bottom: 10px;
+
+}
+
+#franceBlue {
+    background-color: blue;
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+}
+#franceWhite {
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+}
+#franceRed {
+    background-color: red;
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+}
+
+
+#germanyBlack {
+    background-color: black;
+    display: inline-block;
+    height: 33.3%;
+    width: 100%;
+}
+#germanyRed {
+    background-color: red;
+    display: inline-block;
+    height: 33.3%;
+    width: 100%;
+}
+#germanyGold {
+    background-color: gold;
+    display: inline-block;
+    height: 33.3%;
+    width: 100%;
+}
+
+
+#madWhite {
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 33.3%;
+}
+#madRed {
+    background-color: red;
+    display: inline-block;
+    height: 50%;
+    width: 66%;
+    position: relative;
+    bottom: 50%;
+}
+#madGreen {
+    background-color: green;
+    display: inline-block;
+    height: 50%;
+    width: 66%;
+    left: 33.3%;
+    position: relative;
+    bottom: 50%;
+}
+
+#swissRed {
+    background-color: red;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+#swissWhite {
+    background-color: white;
+    height: 25%;
+    width: 40%;
+    position: relative;
+    top: -63%;
+    left: 30%;
+}
+#swissWhite1 {
+    background-color: white;
+    height: 60%;
+    width: 15%;
+    position: relative;
+    bottom: 106%;
+    left: 42%;
+}
+
+
+
+#swedenBlue {
+    background-color: rgb(15, 110, 189);
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+#swedenYellow {
+    background-color: rgb(247, 220, 67);
+    height: 20%;
+    width: 500px;
+    position: relative;
+    top: -63%;
+    left: 0%;
+}
+#swedenYellow1 {
+    background-color: rgb(247, 220, 67);
+    height: 100%;
+    width: 12%;
+    position: relative;
+    bottom: 120%;
+    left: 26%;
+}
+
+
+
+#gambiaRed {
+    background-color: rgb(194, 54, 54);
+    display: inline-block;
+    height: 30%;
+    width: 100%;
+}
+#gambiaWhite {
+    background-color:  white;
+    display: inline-block;
+    height: 5%;
+    width: 100%;
+}
+#gambiaBlue {
+    background-color: rgb(26, 26, 131);
+    display: inline-block;
+    height: 30%;
+    width: 100%;
+}
+#gambiaWhite {
+    background-color:  white;
+    display: inline-block;
+    height: 5%;
+    width: 100%;
+}
+#gambiaGreen {
+    background-color:rgb(54, 102, 54);
+    display: inline-block;
+    height: 30%;
+    width: 100%;
+}
+
+
+#tongaRedT {
+    background-color: red;
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+}
+#tongaRedB {
+    background-color: red;
+    display: inline-block;
+    height: 50%;
+    width: 100%;
+    }
+    #tongaRedB {
+    
+    }
+    
+    #tongaWhite {
+    
+    }
+    #tongaRedXv {
+    
+    }
+    
+    #tongaRedXh {
+    
+    }
+}
+
+#tongaWhite {
+
+}
+#tongaRedXv {
+
+}
+
+#tongaRedXh {
+
+}
+
+
+
+#japanWhite {
+    background-color: white;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+#sunRed {
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    height: 62%;
+    width: 37%;
+    top: -82%;
+    left: 30%;
+}
+
+
+#greeceBlue {
+    background-color: rgba(15, 89, 173, 0.856);
+    display: inline-block;
+    height: 33.3%;
+    width: 100%;
+}
+#greeceBlue1 {
+    background-color: rgba(15, 89, 173, 0.856);  
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceBlue2 {
+    background-color: rgba(15, 89, 173, 0.856);
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceBlue3 {
+    background-color: rgba(15, 89, 173, 0.856);
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceBlue4 {
+    background-color: rgba(15, 89, 173, 0.856);
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceWhite {
+    background-color: white;
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceWhite1 {
+    background-color: white;
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceWhite2 {
+    background-color: white;
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceWhite3 {
+    background-color: white;
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceWhite4 {
+    background-color: white;
+    display: inline-block;
+    height: 11.11%;
+    width: 100%;
+}
+#greeceBlueSquare {
+
+}
+
+#greeceWhiteStripe {
+    background-color: white;
+
+}
+
+#greeceWhiteStripe1 {
+    background-color: white;
+}
