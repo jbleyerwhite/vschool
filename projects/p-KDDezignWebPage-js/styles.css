@@ -1,0 +1,151 @@
+body {
+    background-image: url(greengarden.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+
+header {
+    position:  block;
+    background-color: black;
+    text-align: center;
+    margin:  30px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 3px;
+    padding-top: 0px;
+}
+
+nav a {
+    display: flex;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 25px;
+    font-stretch: ultra-expanded;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(255, 68, 0);
+    padding:  8px 16px;
+    text-decoration: none;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 32px;
+}
+
+#About {
+    background-color: rgba(0, 0, 0, 0.712);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size:  20px;
+    padding-left:  50px;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: rgb(255, 68, 0);
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight:  lighter;
+    font-size:  20px;
+    padding-left:  50px;
+    padding-right: 50px;
+}
+
+p {
+    color:  white;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 16px;
+    font-weight:  lighter;
+    padding-left:  10px;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom:  50px;
+}
+
+footer {
+    position:  fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+    background-color: black;
+    color:  white;
+    font-family: 'Sunflower', sans-serif;
+    font-size:  25px;
+    font-weight: lighter;
+}
+
+#Creations {
+    background-color: rgba(0, 0, 0, 0.712);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.row {
+    dispay: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+            
+
+
+    /* footer p {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom:  20px;
+    } */
+
+    /* media @ 680 tablet */
+
+    @media (max-width: 680px) {
+        /* p {
+            display: grid;
+        } */
+        
+        nav {
+        flex-direction: column;
+        }
+        
+        h1 {
+            text-align: left;
+            padding-left: 10px;
+        }
+    
+        footer p {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+@media (max-width: 768) {
+    
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div><h1>Please tell us about your upcoming travel plans:</h1></div>
+    <form name="travel">
+        <div><Passenger Name></span> 
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="Last Name">
+        </div>
+        <br>
+        <div><span>PASSENGER AGE(please input)</span>
+            <input type="number" name="age" placeholder="Age">
+        </div>
+        <br>
+        <div><span>GENDER:</span>
+            Male<input type="radio" name='gender' value='male'>
+            Female<input type="radio" name='gender' value='female'>
+        </div>
+        <br>
+        <div>DESTINATION:</div>
+        <select name='location'>
+            <option value="San Francisco">San Francisco</option>
+            <option value="Switzerland">Switzerland</option>
+            <option value="England">England</option>
+         </select>
+        <br>
+        <br>
+        <div>DIETARY RESTRICTIONS:</div>
+            Vegetarian <input type="checkbox" name='diet' value="Vegetarian">
+            Kosher <input type="checkbox" name='diet' value="Kosher">
+            Gluten Free <input type="checkbox" name='diet' value="Gluten Free">
+            None <input type="checkbox" name='diet' value="None">
+        <br>
+        </div>
+
+    <button>Submit</button>
+
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

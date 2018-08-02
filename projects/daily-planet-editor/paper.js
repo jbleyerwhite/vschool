@@ -20,7 +20,7 @@ function whoWins(isThereKryptonite, enemyName){
     }
 
 for (var i=0;i<enemies.length;i++) {
-    var is_there_kryptonite:
+    var isThereKryptonite
     if (i % 2 === 0) {
         isThereKryptonite = true;
     } else {
@@ -31,18 +31,18 @@ for (var i=0;i<enemies.length;i++) {
 
 function HowAttractedIsLoisLaneToMe () {
     // 1 is not at all attracted, 10 is "super" attracted...
-    return Math.floor((Mat.random()*10)+1);
+    return Math.floor((Math.random() * 10) + 1);
 }
 
 console.log(howAttractedIsLoisLaneToMe ()) ;
 
-var clarkKent =true;
-var superman false;
+var clarkKent =true
+var superman = false
 
 while (clarkKent){
     console.log("I'm just a nerdy columnist");
     var phoneBoothQuickChange =Math.random();
     if (phoneBoothQuickChange>= 0.5) {
-        clarkKent=false;
-        superman=true;
+        clarkKent = false;
+        superman = true;
         console.log("Now I'm Superman!");}}
