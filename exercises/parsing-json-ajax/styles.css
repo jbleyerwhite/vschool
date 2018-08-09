@@ -1,0 +1,18 @@
+* {
+    background-color: blueviolet;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    text-align: center; 
+
+}
+
+#list {
+    border: 5px solid goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
