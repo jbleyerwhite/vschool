@@ -1,19 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    
+    <title>Axios To Do</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
 </head>
+
+
 <body>
+    <nav>KNOCK IT OUT...</nav>
+    <!-- this div holds all the already entered todo items -->
+    <div id="toDoContainer">
+  
+        <form id="newTodo" name="newTodo">
+            <h2>New To Do!</h2>
+            <input type="text" name="title" placeholder="todo" />
+            <br>
+            <input type="text" name="description" placeholder="notes" />
+            <br>
+            <input type="number" name="price" placeholder="$" />
+            <br>
+      <!-- <input type="text" name="imgUrl" placeholder="img url https://"/> -->
+            <input type="text" name="imgUrl" placeholder="img url https://"/>
+      
+            <button id="posting">Post</button>
+    <!-- this button is what makes the form pop up so you can enter a new todo -->
+        <!-- <button id="new">New To Do</button> -->
 
+        <!-- this is the form that pops up I grab the values typed into it in js -->      
+        </form>
+<!-- EDIT / SAVE Button  -->
+        <!-- <form id="editTodo" name="editTodo"> 
+            <input type="text" name="title" placeholder="todo" />
+            <br>
+            <input type="text" name="description" placeholder="notes" />
+            <br>
+            <input type="number" name="price" placeholder="$" />
+            <br>
+            <input type="text" name="imgUrl" placeholder="img url https://"/> 
+      
+        <button id="posting">EDIT</button>
+        </form> -->
 
-
-
-    <script>src="https://unpkg.com/axios/dist/axios.min.js"</script>
-    <script src="app.js"></script>
+        <!-- <form id = "editTodo" name="editTodo">
+                <input type="text" name='description' placeholder="edit" />
+                <button id="posting">SAVE</button>
     
+            </form> -->
+            
+       
+
+    </div>
+
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>

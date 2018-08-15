@@ -1,0 +1,22 @@
+#css-zen-garden {
+
+}
+
+.page-wrapper {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.body {
+	
+}
+
+header {
+	margin: 0;
+	height:  300px;
+	width: 100%;
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(huntington.jpg);
+}
+
