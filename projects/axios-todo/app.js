@@ -17,14 +17,14 @@ function displayToDo(data) {
         //checkbox.addEventListener('click', function(){
             //it(checkbox.checked){
                 //var updtedTodo = { completed: true }
-            }
-        })
+        // })
+    
         //toDoData.appendChild(checkbox);
 
         var toDoData = document.createElement("div");
         // toDoData.id = toDo._id;
         container.appendChild(toDoData);
-        toDoData.classList.add("decorate-me")
+        toDoData.classList.add("decorate-me");
         //appendedChild to var toDoData//
         toDoData.innerHTML = `
                             <div id=${toDo._id} >
@@ -43,7 +43,7 @@ function displayToDo(data) {
         // set the click function for change
         // editButton.addEventListener('click', function(){
         // // toggle code goes here
-        //     putFunction()
+        //    putFunction()
         // })
 
 // SAVE button
@@ -68,10 +68,9 @@ function displayToDo(data) {
         // })
 
         //create edit form:  
-        var editForm = document.createElement('form')
-        editForm.setAttribute('id', `e${toDo._id}`)
-        editForm.setAttribute('class', 'editForms')
-        
+        var editForm = document.createElement('form');
+        editForm.setAttribute('id', `e${toDo._id}`);
+        editForm.setAttribute('class', 'editForms');
         editForm.innerHTML = `
             <input type="text" name="title" placeholder="todo" value='e${toDo.title}' />
             <br>
@@ -87,10 +86,15 @@ function displayToDo(data) {
         toDoData.appendChild(saveButton)
         toDoData.appendChild(editButton)
         //apend checkbox
+    
+
     })
+}
+
+
         //<img src="${toDo.imgUrl}" heitht="40px" width="40px">
 
-}
+
 //SAVE function:
 
 
@@ -207,6 +211,10 @@ document.newTodo.addEventListener("submit", function (e) {
         displayToDo([res.data])
     })
 })
+
+
+
+
 //EDIT button:
 // document.newTodo.addEventListener('submit', function(e) {
 //     e.preventDefault();
