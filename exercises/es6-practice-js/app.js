@@ -31,3 +31,12 @@
 
 // **const mappedData = data.map(num) => num + 1)
 // console.log(mappedData)
+
+const shoppingList = (...items) => {
+        if(items.indexOf('milk') === -1){
+            return ['milk', ...items, 'cheese']
+        }
+        return items
+    }
+    
+    console.log(shoppingList('bread', 'steak', 'eggs'))
