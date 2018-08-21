@@ -3,8 +3,6 @@
     src: url(./verdemoderna.woff) format('woff');
 }
 
-
-
 body {
 	margin: 0;
 	letter-spacing: .5px;
@@ -167,8 +165,9 @@ p {
 	/* padding: 2em 0; */
 	/* margin-top: 0.5em;
 	margin-bottom: 0.5em; */
-	margin-left: auto;
-	margin-right: auto;
+
+	/* margin-left: auto;
+	margin-right: auto; */
 }
 
 #right-container {
@@ -179,29 +178,30 @@ p {
 }
 
 .right-white-list {
-	display: block;
 	list-style: none;
-	float: left
+	float: left;
+	width: 100%;
     /* -webkit-margin-before: 1em;
     -webkit-margin-after: 1em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    -webkit-padding-start: 40px; */
+	-webkit-padding-start: 40px; */
+	
 }
 .right-white-list li {
-	/* display: list-item; */
+	display: list-item;
 	float: left;
 	height: 50px;
 	width:  100%;
-	border-top: solid 1px #d9e3dc;
+	border-top: solid 1.5px #d9e3dc;
 	color: #c0cac3;
+	padding-top: 20px;
 }
 
-.right-white-list a {
+/* .right-white-list a { 
 	font-family: 'Libre Baskerville', sans-serif;
 	color: #325050;
-	
-}
+} */
 
 .right-White-list span {
 	/* font-family: 'Libre Baskerville', sans-serif;
@@ -211,15 +211,17 @@ p {
 .design-name {
 	font-family: 'Julius Sans One', sans-serif;
 	color:  #325050;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	font-style: normal;
-    text-transform: uppercase;
+	text-transform: uppercase;
+	
 }
 
 .designer-name {
 	font-family: 'Libre Baskerville', sans-serif;
 	color:  #084a5a;
 	font-size:  10px;
+	padding-top: 10px;
 }
 
 #right-container a:visited {
@@ -229,6 +231,7 @@ p {
 .green-right-container {
 	display: block;
 	width: 100%;
+	margin: 0;
 	margin-top: 0;
 	/* background-color: rgba(138,188,159,0.5); */
 	background-image: url(./contours-opaque.png), url(./gridlines-opaque.png), url(./bamboo.png);
@@ -244,9 +247,9 @@ p {
 	/* margin: 0; */
 	padding: 0;
 	list-style: none;
-	/* font-family: 'Libre Baskerville', sans-serif;
-	font-size: 15px;
-	color: #325050; */
+	font-family: 'Libre Baskerville', sans-serif;
+	/* font-size: 15px; */
+	color: #325050;
 }
 .green-right-container li {
 	float: none;
@@ -255,32 +258,21 @@ p {
 	/* font-family: 'Libre Baskerville', sans-serif;
 	color: #325050; */
     /* font-style: normal; */
-	/* color: #c0cac3; */
+	color: #c0cac3;
 	padding: 1em 5%;
+	margin: 0;
 }
 
 .green-right-container a {
 	font-family: 'Julius Sans One', sans-serif;
-    font-size: 1.2em;
-    font-style: normal;
+    font-size: 1.5em;
+    font-style: bold;
     text-transform: uppercase;
 }
-/* 
-view {
-float: none;
-width: 100%;
-
-}. */
-
-/* .sidebar {
-	background: #e9f4f0;
-} */
-
 
 a:hover {
 	text-decoration: unerline;
 }
-
 
 
 #bottom-container {
