@@ -6,6 +6,10 @@ import Footer from './Footer';
 //import './App.css';
 
 const App = () => {
+  const style = {
+    fontFamily: "helvetica",
+  }
+
   return (
     <div>
       <Navbar />

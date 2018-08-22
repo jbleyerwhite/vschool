@@ -2,10 +2,16 @@
 import React from 'react';
 
 const Footer = () => {
-    return (
-        <div>
+    const style = {
+    }
 
-        </div>
+    return (
+        <ul>
+            <div>Facebook</div>
+            <div>Instagram</div>
+            <div>Pintrest</div>
+            <div>Twitter</div>
+        </ul>
     )
 }
 export default Footer;
