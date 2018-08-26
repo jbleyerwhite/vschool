@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    font-family:'Shadows Into Light Two', cursive;
+    color:  white;
+  }
+
+  img {
+    height: 400px;
+    width:  400px;
+    border:  5px solid white;
+    padding:  30px;
+    margin-left:  40px;
+
+  }
+
+  button {
+      height: 20px;
+      width:  300px;
+      margin-left:  130px;
+
+  }
+
+
+
+  #display {
+     display: flex;
+     flex-direction: column;
+     text-align:  center;
+      margin: 10px;
+      margin-right:  100px;
+      
+  }
+
+  #display h2 {
+      color:  rebeccapurple;
+      font-size:  40px;
+      margin-left:  40px;
+      margin-top:  50px;
+  }
+  

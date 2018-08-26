@@ -1,0 +1,34 @@
+.box1 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 3px solid rebeccapurple;
+}
+
+.box2 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 3px solid rebeccapurple;
+}
+
+.box3 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 3px solid rebeccapurple;
+}
+
+.box4 {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 4px solid rebeccapurple;
+}
+
+.boxContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    width:  100vw;
+}

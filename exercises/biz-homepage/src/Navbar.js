@@ -1,24 +1,17 @@
-
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
-    const style = {
-        fontFamily: "helvetica"
-    } 
 
-    // const font = {
-        
-    // }
 
     return (
-        <div style={style}>
-        <nav>
-            {/* <div style={font}>Who We Are</div> */}
-            <div>Home</div>
-            <div>Our Story</div>
-            <div>Enter Our Photo Contest</div>
+        <div className="navbar">
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="story">Our Story</a></li>
+            <li><a href="photo">Enter Our Photo Contest</a></li>
         
-        </nav>
+        </ul>
         </div>
 
     )

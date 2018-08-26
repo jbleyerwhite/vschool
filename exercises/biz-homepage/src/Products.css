@@ -1,0 +1,12 @@
+.products img {
+    height:  250px;
+    width: 250px;
+    padding:  10px;
+    border:  1px solid white;
+}
+
+
+.products h3 {
+    color: orangered;
+    font-size:  30px;
+}

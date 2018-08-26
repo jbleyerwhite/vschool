@@ -1,0 +1,30 @@
+
+.info {
+    font-display:  center;
+}
+
+
+
+.info h1 {
+    color: rgb(18, 158, 158);
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size:  120px;
+    letter-spacing:  5px;
+    padding:  none;
+    Margin-left:  30px;
+
+}
+
+
+
+.info h2 {
+    color: purple;
+    font-size:  30px;
+    letter-spacing:  2px;
+    Margin-left:  60px;
+}
+
+.info span {
+    font-family: 'Shadows Into Light Two', cursive;
+    color:  purple;
+}

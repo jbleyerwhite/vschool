@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Info from './Info';
 import Products from './Products';
 import Footer from './Footer';
-//import './App.css';
+import './App.css';
 
 const App = () => {
   const style = {
@@ -11,7 +11,7 @@ const App = () => {
   }
 
   return (
-    <div>
+    <div >
       <Navbar />
       <Info />
       <Products />
