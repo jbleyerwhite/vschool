@@ -22,6 +22,16 @@ changeColor = () => {
   })
 }
 
+// changeToPurple = () => {
+//   if(this.state.backgroundColor.box1 === "white"){
+//     return {backgroundColor: "purple"}
+//   } else {
+//     return {backgroundColor: "white"}
+//   }
+
+//   })
+// }
+
   render () {
   
     const stylesboxContainer = {
@@ -29,13 +39,18 @@ changeColor = () => {
     }
 
     return (
-      <div class="boxContainer" style={stylesboxContainer}>
-          <div class="box1"></div>
-          <div class="box2"></div>
-          <div class="box3"></div>
-          <div class="box4"></div>
+      <body>
+      <div class="boxContainer">
+          <div class="box1"  style={stylesboxContainer}></div>
+          <div class="box2" style={stylesboxContainer} ></div>
+          <div class="box3"  style={stylesboxContainer}></div>
+          <div class="box4"  style={stylesboxContainer}></div>
           <button onClick={this.changeColor}>Change Color</button>
+          <button onClick={this.changeColor}>Change To Purple</button>
+          <button onClick={this.changeColor}>Change Bottom Left</button>
+          <button onclick={this.changeColor}>Change Bottom Right</button>
       </div>
+      </body>
 
     )
 

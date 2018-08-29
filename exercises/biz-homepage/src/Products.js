@@ -20,6 +20,7 @@ const Products = () => {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSloO2ieeD4Wd2cdaaUHxVknDoyCNGlKaIP5BfHtWh6RQDXuQpY"/>
 
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsAcYfgxk8uNTZ7I7Q-DRhedGZiY2CoNCFBzpOk5bdjehZJL52w" />
+            <img src="https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a8c2864829b36d67d97b20234c853ec8&auto=format&fit=crop&w=900&q=60" />
 
         <h3>Creative Portraits of Artists Hands</h3>
             <img src="https://www.creativeboom.com/uploads/articles/47/4774988797cf60179392c63132bc275b4e14683a_2200.jpg" />
@@ -35,11 +36,20 @@ const Products = () => {
              {/* <img src="https://previews.123rf.com/images/forsterforest/forsterforest1211/forsterforest121100055/16469305-sculptor-workshop-with-various-statues-and-reliefs-around.jpg" /> */}
             <img src="http://www.studiobridges.com/wp-content/uploads/2015/08/Deborah_Bridges_Fun_w_Ceramic_Clay_02.jpg" />
             <img src="https://i2.wp.com/farm6.static.flickr.com/5175/5484309406_8ecab09422.jpg?zoom=2" />
-            <img src=" https://i.pinimg.com/236x/07/e7/43/07e743c8f00779b95d5f492354427b1c--human-sculpture-art-sculpture.jpg" />  
+            <img src="https://i.pinimg.com/236x/07/e7/43/07e743c8f00779b95d5f492354427b1c--human-sculpture-art-sculpture.jpg" />  
             <p>lalalalala</p>
 
         <h3>Human Art</h3> 
+            <img src="https://www.pinterest.com/pin/105412447500682612/" />
+            <img src="" />
+            <img src="https://www.pinterest.com/pin/105412447499466802/" />
+            <img src="https://www.pinterest.com/pin/105412447499327791/" />
+            <img src="https://www.pinterest.com/pin/105412447499220403/" />
+            <img src="https://www.pinterest.com/pin/105412447499103923/" />
 
+        <h3>Edible Art</h3>
+            <img src="" />
+            <img src="" />
             
         </div>
     )
