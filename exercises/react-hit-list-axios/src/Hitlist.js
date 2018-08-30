@@ -4,11 +4,12 @@ import './Hitlist.css'
 
 
 const Hitlist = props => {
+
+const styles = {backgroundImage: `url(${ props.image })`}    
     return (
         
-        <div className="hitlist">
+        <div style={ styles } className="hitlist">
             <h3>{ props.name }</h3>
-            <img src={ props.image }/>
         </div>
     )
 }

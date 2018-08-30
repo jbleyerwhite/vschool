@@ -1,0 +1,22 @@
+* {
+  background-color: indianred;
+  font-family: 'Poiret One', cursive;
+  color:  whitesmoke;
+}
+
+h1 {
+  color: orange;
+  font-size:  80px;
+  padding-left:  50px;
+  padding-top:  50px;
+}
+
+h3 {
+  padding-left:  125px;
+
+}
+
+.about {
+  display: flex;
+  flex-direction: column; 
+}

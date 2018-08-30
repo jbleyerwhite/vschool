@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Form.css';
+
 
 class Form extends Component {
   render() {
@@ -7,8 +7,8 @@ class Form extends Component {
       <div>
   
       </div>
-    );
+    )
   }
 }
 
-export default Form;
+export default Form

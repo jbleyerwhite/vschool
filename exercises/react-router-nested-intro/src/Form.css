@@ -1,0 +1,14 @@
+
+.input[type=text] {
+    width: 80%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+}
+
+
+.input[type=text]:focus {
+    background-color: whitesmoke;
+    border: 5px solid black;
+
+}

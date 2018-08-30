@@ -17,7 +17,7 @@ class App extends Component {
     axios.get('http://api.vschool.io:6543/hitlist.json').then(response => {
       console.log(response)
       this.setState({
-        data: response.data
+        data: response.data.slice(0, response.data.length - 1)
       })
     }).catch(err => {
       console.log(err)
@@ -38,7 +38,7 @@ class App extends Component {
     return (
       <div>
         <Navbar/>
-       <div>{mappedMafiaPeople}</div>
+       <div className='container'>{mappedMafiaPeople}</div>
       </div>
     )
   }

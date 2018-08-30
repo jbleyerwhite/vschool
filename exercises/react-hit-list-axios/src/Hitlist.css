@@ -1,14 +1,37 @@
-.hitlist {
-    background-color: indigo;
-    color: white;
+
+
+
+.container {
+    display: inline-block, 30%;
+    padding-top: 100px;
+    padding-bottom:  100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    position: relative;
+    top: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* height: 200px;
+    width:  150px; */
 }
 
-img {
-    height: 250px;
-    width: 250;
-    
+
+.hitlist {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width:  150px;
+    bottom: 40px;
+    background-color: rgb(5, 5, 71);
+    /* padding:  20px; */
 }
 
 h3 {
    color: white;
+   font-size: 18px;
+   font-family: 'Poiret One', cursive;
+   text-align: center;
+   position: realtive;
+   bottom: 0;
 }

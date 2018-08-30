@@ -1,0 +1,23 @@
+.navbar {
+    background-color: rgba(17, 14, 14, 0.918);
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    display: flex;
+
+}
+
+.navbar img {
+    height: 50px;
+    width: 50px;
+    padding-right: 30px;
+}
+
+.navbar h1 {
+    color: rgb(145, 8, 8);
+    font-size: 18px;
+    font-family: 'Poiret One', cursive;
+    padding-top:  5px;
+}
