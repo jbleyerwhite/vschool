@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jbleyerwhite/vschool#readme",
   "dependencies": {
     "chai": "^4.1.2",
+    "react-redux": "^5.0.7",
     "redux": "^4.0.0"
   }
 }

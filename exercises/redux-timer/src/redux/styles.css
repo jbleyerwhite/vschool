@@ -1,0 +1,32 @@
+* {
+    background-color: blueviolet;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    color: aqua;
+    /* height: 50px;
+    width: 100px; */
+    border: 5px solid orangered;
+    font-family: 'Shadows Into Light', cursive;
+    font-size:  50px;
+    color: white;
+    height: 100px;
+    width: 300px;
+    margin-left:  100px;
+    background-color: rgb(84, 15, 133)
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    color: white;
+    font-size: 90px;
+    justify-content:  space-evenly;
+    font-family: 'Shadows Into Light', cursive;
+}

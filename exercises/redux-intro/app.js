@@ -10,6 +10,9 @@ var state = {
 // ACTIONS - Action Creators // - Must have a Type in "SCREAMING_SNAKE_CASE"
     // Actions return action objects when dispatch is used
         // The action object is sent to the reducer to update state appropriately
+
+// const addOne = () => { }
+
 function addOne(){
     return {
         type: "ADD_ONE"
@@ -31,6 +34,7 @@ function setCount(newCount){
 
 
 // REDUCER - Function that takes action objects and updates the store (state) appropriately
+// const reducer = (prevState = initState, action) => { }
 function reducer(prevState = state, action){
     switch(action.type){
         case "ADD_ONE":
@@ -45,6 +49,7 @@ function reducer(prevState = state, action){
             return {
                 count: action.newCount
             }
+        // default used to ensure that it returns something 
         default:
             return prevState
     }
@@ -58,6 +63,7 @@ store.subscribe(function(){
 })
 
 // this.setState({ count: prevState.count + 1 })
+//store.dispatch ( the function or the case)
 store.dispatch(setCount(589459817349857))
 store.dispatch(addOne())
 store.dispatch(addOne())

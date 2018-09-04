@@ -1,11 +1,13 @@
 
 .footer {
+    display: flex;
+    flex-direction: row;
     height: 20px;
     width: 100%;
 }
 
 .footer ul {
-    display: inline-block;
+    /* display: inline-block; */
     justify-content: center;
     list-style-type: none;
     text-decoration: none;
@@ -15,7 +17,7 @@
 }
 
 .footer li {
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .footer li a { 
