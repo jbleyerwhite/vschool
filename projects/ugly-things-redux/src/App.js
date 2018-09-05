@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { component } from 'react'
 import Form from './components/Form'
 import Display from './components/Display'
+import { connect } from 'react-redux'
 
 
-const App = () => {
+const App  = () => {
     return (
         <div>
             <Form />
+
             <Display />
         </div>
     )
 }
 
-export default App
+export default (App)
 
 
 
