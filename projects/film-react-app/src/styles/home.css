@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    }
+    
+    
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://images.unsplash.com/photo-1502445450262-e8ac19d23f19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e17351d7307ee277a100e169422b9ccf&auto=format&fit=crop&w=800&q=60);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        height:  800px;
+    }
+
+
+    .home button {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgb(221, 56, 27);
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: rgb(53, 48, 48);
+        font-size: 30px;
+        padding: 12px 24px;
+        border: 2px solid white;
+        cursor: pointer;
+        border-radius:5px;
+        box-shadow:  5px 5px rgba(51, 48, 48, 0.726);
+        background-clip: border-box;
+        width:  200px;
+
+        /* position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: rgb(221, 56, 27);
+        font-family: 'Open Sans Condensed', sans-serif;
+        color: rgb(53, 48, 48);
+        font-size: 20px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow:  5px 5px whitesmoke;
+        background-clip: border-box; */
+    
+        /* height:  75px;
+        width: 100px; */
+    }
+
+    .home h1 {
+        justify-content:  wrap;
+        align-items: center;
+        position: absolute;
+        margin-left: 20px;
+        top: 10%;
+        /* position: absolute; */
+        /* top: 100 px; */
+        left: 50px;
+        font-size:  40px;
+        font-family: 'Paytone One', sans-serif;
+        color: rgb(238, 229, 229);
+        /* margin-top: 25px; */
+    }
+
+    .home h1 span {
+        font-size: 80px;
+        color: white;
+    }
+
+
+    .home h3 {
+        font-family: 'Paytone One', sans-serif;
+        color: white;
+    }
+
+    .home h4 {
+        font-family:  'Open Sans Condensed', sans-serif;
+        color: white;
+    }
+    

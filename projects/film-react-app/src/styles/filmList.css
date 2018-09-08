@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+.filmList  {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.filmImage {
+    background-repeat:  no-repeat;
+    background-size:  contain;
+    height:  300px;
+    width: 125px;
+    flex-wrap: wrap;
+}
