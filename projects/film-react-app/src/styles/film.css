@@ -7,6 +7,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* background-attachment:  local, scroll; */
     overflow-y: scroll;
     height: 800px;
     display: flex;
@@ -18,46 +19,91 @@
     font-family: 'Paytone One', sans-serif;
     font-size: 70px;
     color: white;
-    padding-top: 8%;
+    /* padding-top: 8%; */
     padding-bottom: 0;
 
 }
 
 .film h3 {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     opacity: 0.5;
-    padding-bottom: 10%;
+    padding-bottom: 2%;
 }
 
 .film h2 {
-    padding-bottom: 3%;
+    padding-top: 3%;
     padding-right: 10%;
     padding-left: 10%;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     color: white; 
+    opacity: 0.5;
+}
+
+.film h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-right:  20%;
+    padding-left: 20%;
 }
 
 .film form {
-    padding-top: 5%;
+     padding-top: 2%;
     -ms-transform: translate(-50%, -50%);
     padding-bottom:  10%;
     
 }
 .film input {
     padding: 7px 7px;
-    background-color: white;
+    background-color:rgb(88, 80, 80);
     font-family: 'Open Sans Condensed', sans-serif;
-    color: black;
-    font-size: 18px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
     border: none;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 5px 10px rgb(90, 79, 77);
+    border: 3px solid black;
+    box-shadow: 5px 10px white;
     background-clip: border-box;
-    width: 400px;
+    width: 600px;
+}
+
+input:focus {
+    background-color: rgb(88, 80, 80);
+}
+
+input:active {
+    background-color: purple;
+}
+
+input: {
+    background-color:  orange;
+}
+
+.filmData {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* overflow-x: flex-wrap; */
+    margin-left:  20px;
+    margin-right: 20px;
+    justify-content:  space-around;
+    align-items: center;
+}
+
+.filmImage {
+    margin: 12px;
+    border:  5px solid white;
+}
+
+::-webkit-input-placeholder {
+    color:white;
+    /* transition: opacity 250ms ease-in-out; */
+    box-shadow:  none;
 }
 
 

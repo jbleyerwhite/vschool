@@ -1,0 +1,30 @@
+
+
+.navbar {
+    background-color:  black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:  20px;
+    color:  white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-bottom: 3px solid transparent;
+    padding: 10px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.navvbar a:link {
+   
+    color:  white;
+    opacity:  0.9;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+}
+
+.navbar a:visited {
+    color: white;
+}

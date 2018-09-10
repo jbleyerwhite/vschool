@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { getFilms } from '../redux'
 import FilmList from './FilmList'
-// import Navbar from './Navbar'
 
 class Film extends Component {
     constructor() {
@@ -17,6 +16,9 @@ class Film extends Component {
     handleFilmSelect = (e) => {
         e.preventDefault()
         this.props.getFilms(this.state.userInput)
+        this.setState({
+            userInput: ''
+        })
 
     }
 
@@ -34,11 +36,11 @@ class Film extends Component {
         return (
             <section>
                 <div className='film'>
-                {/* <Navbar /> */}
-            
+                    <h2>Welcome to the Film Gallery</h2>  
                     <h1>TAKE A SEAT!</h1>
-                    <h3>( and grab some popcorn! )</h3>
-                    <h2>Welcome to the Film Gallery.  Enjoy your journey searching for your favorite Film, Movie, Producer, Actor, Actress or film 'person'.</h2>
+                    <h3>( ...and grab some popcorn! )</h3>  
+                    
+                    <h4>Enjoy your journey searching for your favorite Film, Movie, Producer, Actor, Actress or film person.</h4>
 
                     <form onSubmit={this.handleFilmSelect}  >
             

@@ -3,7 +3,8 @@ import Home from './component/Home'
 import About from './component/About'
 import Film from './component/Film'
 import Production from './component/Production'
-// import Navbar from '.component/Navbar'
+import Awards from './component/Awards'
+import Navbar from './component/Navbar'
 import { connect } from 'react-redux'
 import { Switch, Route } from 'react-router-dom'
 //do I need to add withRouter above?
@@ -12,12 +13,13 @@ import { Switch, Route } from 'react-router-dom'
 const App  = () => {
     return (
         <div>
-            {/* <Navbar /> */}
+            <Navbar />
             <Switch>
                 <Route exact path="/" component= { Home } />
                 <Route path="/about" component= { About } />
                 <Route path="/film" component= { Film } />
                 <Route path="/production" component= { Production } />
+                <Route path="/awards" component= { Awards } />
             </Switch>
         </div>
     )
