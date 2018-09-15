@@ -19,7 +19,12 @@
   "homepage": "https://github.com/jbleyerwhite/vschool#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "chai": "^4.1.2",
+    "express": "^4.16.3",
+    "init": "^0.1.2",
+    "mongoose": "^5.2.14",
+    "morgan": "^1.9.1",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0"
   }

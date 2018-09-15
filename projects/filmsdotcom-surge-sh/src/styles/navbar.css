@@ -1,0 +1,59 @@
+
+
+.navbar {
+    /* background-color:  black; */
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:  35px;
+    /* font-weigth: bold; */
+    /* color:  orangered; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: fixed;
+    /* top: 200px; */
+    width: 100%;
+    border-bottom: 3px solid transparent;
+    padding: 10px;
+    opacity: 0.9;
+    z-index: 2;
+    /* text-decoration: none; */
+}
+
+.navvbar a:link {
+   
+    color: orange;
+    opacity:  0.9;
+}
+
+.navbar a:hover {
+    opacity: 0.5;
+}
+
+.navbar a,  a:visited {
+    color: rgba(233, 65, 4, 0.856);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@media (max-width: 769px) and (min-width: 321px) {
+
+    .navbar {
+        font-size: 22px;
+        margin-top: 27px;
+    }
+
+}
+
+@media (max-width: 320px) {
+   
+
+    .navbar a, a:visited {
+        padding: 5px;
+        font-size: 20px;
+        margin-right: 16px;
+    }
+
+    
+}

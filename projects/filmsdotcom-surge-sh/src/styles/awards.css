@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    
+}
+
+.awards {
+    background-color: black;
+    overflow-y: scroll;
+}
+
+.awards intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left:  50px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.oscars {
+    background: url("http://drraa3ej68s2c.cloudfront.net/wp-content/uploads/2015/11/29104343/8f900df7-8f1e-4fd8-a619-ccd3a60e7eec-731x1024.jpg");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+.creative {
+    /* background: url("https://filmdaily.co/wp-content/uploads/2018/02/filmfreeway-logo.jpg"); */
+    background: url("http://renegadecinema.com/wp-content/uploads/2014/02/FilmFreeway.jpg?x56396");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+.short {
+    /* background: url("https://filmpipeline.com/wp-content/uploads/sites/6/2017/08/FilmPipelineWithFox.png"); */
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcBXsiXqxJdAAeBvst39p35iQorVPP4uzsQ8eSk2fGoSIUEHVHnw");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+.global {
+    
+    background: url("http://www.showmeshorts.co.nz/wp-content/uploads/sms03-website-banner-july-18-5a01_highres.jpg");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+
+
+.awards h1 {
+    margin-top:  65px;
+    margin-bottom: 15px;
+    margin-right: 500px;
+    margin-left: 175px;
+    font-family: 'Paytone One', sans-serif;
+    /* font-size: 60px; */
+    color: white;
+}
+
+
+.awards span {
+    opacity: 0.60;
+    padding-top: 100px;
+    font-size:  25px;
+    color: orange;
+
+}
+
+.awards a {
+    display: inline-block;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 50%;
+    overflow: visible;
+    /* /* margin-top:  100px; */
+    /* margin-left:  200px;  */
+    background-color: black;
+    /* background-color: rgb(221, 56, 27); */
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    height:  400px;
+    width: 100px;
+    margin-top: 20px;
+    padding: 16px 32px;
+    border: 5px solid black;
+    cursor: pointer;
+    box-shadow:  5px 5px rgba(150, 139, 139, 0.726);
+    /* background-clip: border-box; */
+    /* margin: 4px 2px; */
+    opacity: 0.6;
+    /* transition: 0.3s; */
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+.awards a, a:hover {
+    color: white;
+}
+
+
+
+@media (max-width: 769px) {
+
+    .awards h1 {
+        margin-top:  97px;
+        margin-right: 200px;
+        margin-left: 139px;
+        font-family: 'Paytone One', sans-serif;
+        /* font-size: 60px; */
+        color: white;
+    }
+}
+
+@media (max-width: 321px) {
+
+    .awards h1 {
+        margin-right: 12px;
+        margin-left: 42px;
+        font-size: 28px;
+    }
+   
+    .oscars {
+        height: 222px;
+        width: auto;
+    }
+    
+    .creative {
+        height: 222px;
+        width: auto;
+    }
+    
+    .short {
+        height: 222px;
+        width: auto;
+    }
+    
+    .global {
+        height: 222px;
+        width: auto;
+    }
+
+    .awards a {
+        margin-left: 12%;
+        height: 358px;
+    }
+    
+
+}
+
+

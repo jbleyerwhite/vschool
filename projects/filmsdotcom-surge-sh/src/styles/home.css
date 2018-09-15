@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    }
+    
+    
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1502445450262-e8ac19d23f19?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e17351d7307ee277a100e169422b9ccf&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height:  800px;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+        -webkit-background-size:  cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+}
+
+.home button {
+    
+    background-color: rgb(221, 56, 27);
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 16px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow:  5px 5px rgba(150, 139, 139, 0.726);
+    background-clip: border-box;
+    height:  80px;
+    width: 220px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    /* transition: 0.3s; */
+    -ms-transform: translate(-50%, -50%);
+}
+
+button:hover {
+        opacity: 1;
+}
+
+
+  
+   
+.home h1 {
+    justify-content:  wrap;
+    align-items: center;
+    position: absolute;
+    margin-left: 40px;
+    top: 10%;
+    left: 50px;
+    font-size:  40px;
+    font-family: 'Paytone One', sans-serif;
+    color: rgb(238, 229, 229);
+    padding-bottom:  50px;
+}
+
+.home h1 span {
+    font-size: 80px;
+    color: white;
+}
+
+
+.home h3 {
+    font-family: 'Paytone One', sans-serif;
+    color: white;
+}
+
+.home h4 {
+    font-family:  'Open Sans Condensed', sans-serif;
+    color: white;
+}
+
+.home span1 {
+    margin-left: 10%;
+}
+
+section {
+    text-align: end;
+}
+
+/* web 320 {
+    margin-top: 0;
+    margin-left: 0;
+
+} */
+
+  
+    
