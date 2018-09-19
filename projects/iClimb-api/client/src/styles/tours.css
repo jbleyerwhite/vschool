@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    }
+
+.tour {
+    background-color: black;
+    overflow-y: scroll;
+}
+
+
+.tour intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left:  50px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+.tour h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.tour p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+
+.tour france {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRNjRrGllevRP38GSD3WKqBiLvmZuylaEa0d1LNFTbDmCC_oy3");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+
+.utah{
+    background: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t31.0-8/14086463_10153838367037285_3752043987921961671_o.jpg?_nc_cat=0&oh=c77f998f79087e355a4c8b37d96aaf2a&oe=5C2287F9");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+
+.colorado {
+    background: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/39386984_996272827218793_6404330253094748160_o.jpg?_nc_cat=0&oh=09ec59c5ca392e60f94bb27fbd3c2ec3&oe=5C2C7EFD");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+
+.california {
+    background: url("");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+
+.italy {
+    background: url("");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+.belgium {
+    background: url("");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+.spain {
+    background: url("");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}
+
+.austria {
+    background: url("");
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+}

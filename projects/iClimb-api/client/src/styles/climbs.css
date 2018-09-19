@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    }
+
+.displayClimbs {
+    background-color: black;
+    overflow-y: scroll;
+}
+
+.displayClimbs {
+    color: purple;
+}
