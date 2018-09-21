@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
+import '../styles/climbs.css'
 
 class Climb extends Component {
     constructor () {
@@ -7,7 +8,7 @@ class Climb extends Component {
         this.state = {
             reviewsToggle: false,
             inputToggle:  false,
-            comments: ""
+            comment: ""
         }
     }
 // set state for toggles - above
@@ -23,17 +24,20 @@ class Climb extends Component {
     handleSubmit = e => {
         e.preventDefault()
         const newClimb = {
-            comments: this.state.comments
+            comments: this.state.comment
         }
 
-        axios.post('/climb', newClimb).then(response => {
+        axios.put(`/climb/comments/${ this.props._id }`, newClimb).then(response => {
             this.setState(prevState => ({
-                comments: [...prevState.comments, response.data]
+                comment: ""
             }))
         })
-    }
-    //? post by comment vs cimb?
 
+        this.props.getClimbData()
+    }
+
+
+//post reviews
 
     handleReviewToggle = () => {
         this.setState(prevState => ({
@@ -54,13 +58,15 @@ class Climb extends Component {
         return (
 
             <div>
-                <div className="displayClimbs">
-                    <h3>{ this.props.title }</h3>
+                <div className="climbsDisplay">
+                    <h3 className="climbT">{ this.props.title }</h3>
                     <img src={ this.props.img } alt="" />
-                    <p>Distance: { this.props.distance }</p>
-                    <p>Elevation Gain:{ this.props.elevationGain }</p>
-                    <p>Grade:{ this.props.percentGrade }</p>
-                    <button onClick><span>ride reviews</span></button> 
+                    <div className="climbData">
+                        <p>Distance: { this.props.distance }</p>
+                        <p>Elevation Gain:{ this.props.elevationGain }</p>
+                        <p>Grade:{ this.props.percentGrade }</p>
+                    </div>
+                    <button onClick={ this.handleReviewToggle }><span>ride reviews</span></button> 
                     <button onClick={ this.handleInputToggle }><span>write a review</span></button>
                     {/* want to scroll when clicked to view the reviews */}
                     {/* <button>like me</button> */}
@@ -68,17 +74,19 @@ class Climb extends Component {
 
                 { this.state.inputToggle && 
                     <form onSubmit={ this.handleSubmit }>
-                    <input 
-                        type="text" 
-                        onChange={ this.handleChange } 
-                        value={ this.state.comments } 
-                        name="comments" />
-                    <button>submit</button>
-            
+                        <input 
+                            type="text" 
+                            onChange={ this.handleChange } 
+                            value={ this.state.comment } 
+                            name="comment" />
+                        <button>submit</button>
                     </form>
                 }
-                    
-            </div>
+   {/* set up review toggle & map out this.props.comments */}
+
+                { this.state.reviewsToggle && this.props.comments.map(comment => <p>{ comment }</p>) }
+                
+             </div>
         )
     }
 }

@@ -2,11 +2,40 @@
     margin: 0;
     }
 
-.displayClimbs {
+.climbsDisplay img {
+    height: 400px;
+    width:  100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  20px solid black;
+    }
+
+.introClimbs {
     background-color: black;
     overflow-y: scroll;
 }
 
-.displayClimbs {
-    color: purple;
+.climbsDisplay {
+    color: whitesmoke;
+    background-color:  black;
+}
+
+.h1Climb {
+    background-color: black;
+    padding-top:  70px;
+    padding-bottom: 30px;
+    padding-left:  20px;
+    padding-right:  20px;
+    font-family: 'Nixie One', cursive;
+    font-size: 20px;
+    color: rgb(216, 37, 97);
+}
+
+@media (max-width: 321px) {
+
+}
+
+@media (max-width: 769px) {
+    
 }

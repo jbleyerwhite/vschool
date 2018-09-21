@@ -22,14 +22,14 @@ rideRoutes.route('/')
     })
 })
 
-    .post((req, res) => {
-        console.log(req.body.title)
-        const newComment = new Climbs (req.body)
-        newComment.save((err, newSavedComments) => {
-            if(err) return res.status(500).send(err)
-            return res.status(201).send({ newSavedClimbs: newSavedClimbs, msg:"Your ride comments have been posted" })
-    })
-})
+//     .post((req, res) => {
+//         console.log(req.body.title)
+//         const newComment = new Climbs (req.body)
+//         newComment.save((err, newSavedComments) => {
+//             if(err) return res.status(500).send(err)
+//             return res.status(201).send({ newSavedClimbs: newSavedClimbs, msg:"Your ride comments have been posted" })
+//     })
+// })
 
 
     
@@ -54,18 +54,18 @@ rideRoutes.route('/:id')
     })
 })
 
-// rideRoutes.route('/:id')
-//     .put ((req, res) => {
-//         Climbs.findOneAndUpdate(
-//             {_id: req.params.climbID},
-//             {$push: {comments: comments}},
-//             {new: true},
-//             (err, updatedClimbs) => {
-//                 console.log(updatedClimbs)
-//                 return res.send(updatedClimbs)
-//             }
-//         )
-//     })
+rideRoutes.route('/comments/:id')
+    .put ((req, res) => {
+        Climbs.findOneAndUpdate(
+            {_id: req.params.id},
+            {$push: {"comments": req.body.comments}},
+            {new: true},
+            (err, updatedClimbs) => {
+                if(err) return res.status(500).send(err)
+                return res.status(201).send(updatedClimbs)
+            }
+        )
+    })
 
 
 

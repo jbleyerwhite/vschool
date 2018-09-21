@@ -115,3 +115,11 @@
     background-position: center; 
     border:  20px solid black;
 }
+
+@media (max-width: 321px) {
+
+}
+
+@media (max-width: 769px) {
+    
+}
