@@ -8,10 +8,15 @@ class Climb extends Component {
         this.state = {
             reviewsToggle: false,
             inputToggle:  false,
-            comment: ""
+            comment: "",
+            divClass1: 'climbsDisplay',
+            divClass2: 'displayInfo'
         }
     }
-// set state for toggles - above
+
+// set state for toggles - above  
+///// BELOW ARE METHODS:  all the handle change/submits////
+///////////////////////////////////////////////////////////
 // methods for toggle - below
 
     handleChange = e => {
@@ -36,43 +41,46 @@ class Climb extends Component {
         this.props.getClimbData()
     }
 
-
-//post reviews
-
+//post reviews//
     handleReviewToggle = () => {
-        this.setState(prevState => ({
-          reviewsToggle: !prevState.reviewsToggle
-        }))
+            this.setState(prevState => ({
+                reviewsToggle: !prevState.reviewsToggle
+            }))
       }
-
 
       handleInputToggle = () => {
-          this.setState(prevState => ({
-              inputToggle: !prevState.inputToggle
-          }))
+            this.setState(prevState => ({
+                inputToggle: !prevState.inputToggle
+            }))
       }
 
+      handleClass = () => {
+          if(this.state.divClass1 === 'climbsDisplay'){
+            this.setState({divClass1: 'climbsDisplay1', divClass2: 'displayInfo1'})
+          }else {
+              this.setState({divClass1: 'climbsDisplay', divClass2: 'displayInfo'})
+          }
+
+      }
 
 
     render(){
         return (
 
             <div>
-                <div className="climbsDisplay">
-                    <h3 className="climbT">{ this.props.title }</h3>
-                    <img src={ this.props.img } alt="" />
-                    <div className="climbData">
-                        <p>Distance: { this.props.distance }</p>
-                        <p>Elevation Gain:{ this.props.elevationGain }</p>
-                        <p>Grade:{ this.props.percentGrade }</p>
-                    </div>
-                    <button onClick={ this.handleReviewToggle }><span>ride reviews</span></button> 
-                    <button onClick={ this.handleInputToggle }><span>write a review</span></button>
-                    {/* want to scroll when clicked to view the reviews */}
-                    {/* <button>like me</button> */}
+                <div style={ {backgroundImage: `url(${ this.props.img })`} } className={ this.state.divClass1} >
+                    <h3 className="climbT" onClick={this.handleClass}>{ this.props.title }</h3>
+                    {/* <img src={ this.props.img } alt="" /> */}
+                <div>
+                <div className={this.state.divClass2}>
+                    <p>Distance: { this.props.distance }</p>
+                    <p>Elevation Gain:{ this.props.elevationGain }</p>
+                    <p>Grade:{ this.props.percentGrade }</p>
+                    <button onClick={ this.handleReviewToggle }><span>climb ride reviews</span></button> 
+                    <button onClick={ this.handleInputToggle }><span>post a review</span></button>
                 </div>
-
-                { this.state.inputToggle && 
+                </div>
+                    { this.state.inputToggle && 
                     <form onSubmit={ this.handleSubmit }>
                         <input 
                             type="text" 
@@ -82,16 +90,20 @@ class Climb extends Component {
                         <button>submit</button>
                     </form>
                 }
-   {/* set up review toggle & map out this.props.comments */}
-
                 { this.state.reviewsToggle && this.props.comments.map(comment => <p>{ comment }</p>) }
-                
-             </div>
+                </div>
+            </div>
         )
     }
-}
-
-
-
-
+}  
 export default Climb
+
+                   
+{/* want to scroll when clicked to view the reviews */}
+{/* <button>like me</button> */}                       
+{/* set up review toggle & map out this.props.comments */}
+                   
+  
+
+
+

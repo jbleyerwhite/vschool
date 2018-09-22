@@ -24,7 +24,7 @@
         -o-background-size: cover;   
 }
 
-h1 {
+.home h1 {
     font-size: 250px;
     text-shadow: 10px 20px rgba(0, 0, 0, 0.733);
     color:  whitesmoke;
@@ -34,7 +34,7 @@ h1 {
   
 }
 
-h3 {
+.home h3 {
     font-size:  30px;
     color: whitesmoke;
     font-family: 'Nixie One', cursive;
@@ -66,6 +66,8 @@ h3 {
   height: 100%;
 }
 
+
+
 @media (max-width: 321px) {
   .home {
     display: flex;
@@ -73,7 +75,8 @@ h3 {
     justify-content: center;
 
   }
-  h1 {
+  
+  .home h1 {
     font-size: 85px;
     text-shadow: 5px 5px rgba(0, 0, 0, 0.733);
     padding-top:  150px;
@@ -82,8 +85,8 @@ h3 {
     font-size: 12px;
   }
 
-  h3 {
-    font-size:  12px;
+  .home h3 {
+    font-size:  25px;
     padding-top: 14px;
     padding-bottom: 0;
   }
@@ -95,7 +98,7 @@ h3 {
     font-size:  18px;
 
 }
-h1 {
+/* h1 {
   font-size: 160px;
   text-shadow: 5px 5px rgba(0, 0, 0, 0.733);
 }
@@ -103,7 +106,7 @@ h3 {
   font-size:  25px;
   padding-top:  0;
 
-  }
+  } */
 }
 
 /* .text {

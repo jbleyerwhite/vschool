@@ -1,22 +1,34 @@
 .navbar {
     font-family: 'Nixie One', cursive;
-    font-size:  22px;
+    font-size:  12px;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 33%;
+    margin: auto;
+    color:  whitesmoke;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    position: fixed;
-    width: 100vw;
-    padding: 0px;
-    padding-top:  30px;
+    text-align:  right;
+    /* /* position: fixed; */
+    /* width: 100vw; */
     opacity: 0.9;
     z-index: 2;
-    height: 10vh
+    /* height: 10vh;
+    width: 100vh; */
+    position:  relative;
+    padding-top:  30px;
+    /* background-color: salmon;  */
+    overflow:  hidden;
+}
+
+.navbar a {
+
 }
 
 .navvbar a:link {
     color: whitesmoke;
     opacity:  0.9;
+   
 }
 
 .navbar a:hover {
