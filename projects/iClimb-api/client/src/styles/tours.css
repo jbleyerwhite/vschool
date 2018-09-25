@@ -3,117 +3,207 @@
     }
 
 .tour {
-    background-color: black;
+    }
+
+.toursContainer {
+    background-color:   rgb(25, 35, 44);
+    width:  100%;
     overflow-y: scroll;
 }
 
 
-.tour intro {
+.introTours{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    margin-top: 50px;
-    margin-left:  50px;
-    margin-right: 80px;
-    margin-bottom: 20px;
+    padding-top: 180px;
+    padding-bottom: 40px;
+    margin-left:  5%;
+    margin-right: 13%;
+    text-align: justify;
     opacity: 0.7;
+    font-family:  'Open Sans Condensed', sans-serif; 
+    color:  rgb(240, 70, 112);
+    font-size:  35px;
+    overflow-y: scroll;
 }
 
-.tour h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
+.h1Intro {
+    /* font-family: 'Open Sans Condensed', sans-serif;
     font-size: 30px;
-    color: white;
+    color: white; */
 }
 
-.tour p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
-    color: white;
+a {
+    text-decoration:  none;
+    
 }
 
-
-.tour france {
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRNjRrGllevRP38GSD3WKqBiLvmZuylaEa0d1LNFTbDmCC_oy3");
-    height: 400px;
-    width:  100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; 
-    border:  20px solid black;
+span {
+    font-family:'Open Sans Condensed', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:  space-evenly;
+    flex-wrap: wrap;
+    padding-right: 70px;
+    padding-top:  50px;
+    justify-content:  center;
+    font-size: 30px;
+    color: rgb(240, 70, 112);
+    fill-opacity: inherit;
+    height:  300px;
 }
 
+button1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: rgb(25, 35, 44);
+    font-family: 'Nixie One', cursive;
+    /* color: white; */
+    justify-content:  space-around;
+    width:  85px;
+    height:  300px;
+    padding-left:  74px;
+    opacity: 0.7;
+    font-size:  30px;
+}
 
-.utah{
+.utah {
     background: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t31.0-8/14086463_10153838367037285_3752043987921961671_o.jpg?_nc_cat=0&oh=c77f998f79087e355a4c8b37d96aaf2a&oe=5C2287F9");
-    height: 400px;
-    width:  100%;
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border:  20px solid black;
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+    opacity:  0.5%
 }
-
 
 .colorado {
-    background: url("https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/39386984_996272827218793_6404330253094748160_o.jpg?_nc_cat=0&oh=09ec59c5ca392e60f94bb27fbd3c2ec3&oe=5C2C7EFD");
-    height: 400px;
-    width:  100%;
+    background:  url("https://www.summitdaily.com/wp-content/uploads/2017/06/ProChallengeStage4-SDN-082115-1.jpg");
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border:  20px solid black;
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+    opacity:  0.5%
 }
 
 
 .california {
-    background: url("");
-    height: 400px;
-    width:  100%;
+    background: url("http://www.steephill.tv/2016/tour-of-california/04-141126__BH19588-775.jpg");
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border:  20px solid black;
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+    opacity:  0.5%
 }
+
+.france {
+    background: url("http://www.pyrenees-accommodation.com/wp-content/uploads/2014/03/tour-de-france-sunflowers.jpg");
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+}
+
 
 
 .italy {
-    background: url("");
-    height: 400px;
-    width:  100%;
+    background:  url("https://s27394.pcdn.co/wp-content/uploads/2018/05/958048726.jpg");
+    /* background: url("https://italiantourism.us/wp-content/uploads/2017/03/giro-ditalia-2017.jpg"); */
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border:  20px solid black;
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+    opacity:  0.5%
 }
 
 .belgium {
-    background: url("");
-    height: 400px;
-    width:  100%;
+    background: url("https://farm2.static.flickr.com/1458/26490665881_c2b5e860d7_b.jpg");
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border:  20px solid black;
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+    opacity:  0.5%
 }
 
 .spain {
-    background: url("");
-    height: 400px;
-    width:  100%;
+    background: url("https://dbyvw4eroffpi.cloudfront.net/articles/vuelta-a-espana-2017-guide/gesink.jpg");
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border:  20px solid black;
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+    opacity:  0.5%
 }
 
 .austria {
-    background: url("");
-    height: 400px;
-    width:  100%;
+    background: url("https://catenacycling.com/frontend/files/userfiles/images/CYCLOPEDIA/Events/races/ROAD/WK_2012_Valkenburg/Valkenburg_General_view.jpg");
+    display: flex;
+    flex-direction:  column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
-    border:  20px solid black;
+    border:  3px solid black;
+    margin-right:  5%;
+    margin-left: 5%;
+    opacity:  0.5%
 }
 
 @media (max-width: 321px) {

@@ -1,14 +1,22 @@
 * {
     margin: 0;
     }
+  
+  body {
     
-    
-.home {
+    }
+
+ .home {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-image: url(https://c.pxhere.com/photos/de/5a/bicycle_rider_resting_bike_silhouette_bicyclist_female_woman_rider-667377.jpg!d); */
     background-image: url(https://images.unsplash.com/photo-1534787082341-6ebc212936fb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ec9dfc79e411d63d6ce5b2e60cd8ec4&auto=format&fit=crop&w=800&q=60);
+    background-color: rgb(40, 40, 40);
+    height: 100vh;
+    background-attachment: local, scroll;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
@@ -21,28 +29,59 @@
     bottom: 0;
         -webkit-background-size:  cover;
         -moz-background-size: cover;
-        -o-background-size: cover;   
-}
+        -o-background-size: cover;  
+ /* opacity:  0.5%; */
+      }
 
-.home h1 {
+ 
+
+.h1Home  {
     font-size: 250px;
-    text-shadow: 10px 20px rgba(0, 0, 0, 0.733);
+    text-shadow: 10px 10px rgb(25, 35, 44);
+    /* text-shadow: 10px 10px rgba(0, 0, 0, 0.733); */
     color:  whitesmoke;
     font-family: 'Open Sans Condensed', sans-serif;
-    padding-bottom:  50x;
-    height: 40vh;
-  
+    justify-content: left;
+    padding-top:  50px;
+    padding-bottom: 20px;
+    height: 30vh;
+    /* margin-left:  30px; */
 }
 
-.home h3 {
-    font-size:  30px;
+.h1Up {
+  font-size: 30px;
+  /* text-shadow:  2px 2px rgba(0, 0, 0, 0.733); */
+  text-shadow:  2px 2px rgb(25, 35, 44);
+  color: rgb(240, 70, 112);
+  font-family:  'Open Sans Condensed', sans-serif;
+  /* opacity: 0.9%; */
+  padding-bottom:  62px;
+  padding-top:  61px;
+  opacity:  0.9%;
+}
+
+.h3Home {
+    justify-content: right;
+    font-size:  20px;
     color: whitesmoke;
     font-family: 'Nixie One', cursive;
     font-weight: bold;
-    padding-top:  20px;
-   
+    /* padding-top:  10px; */
+    padding-bottom:  15px;
 }
 
+button {
+  background-color: rgb(25, 35, 44);
+  border: 1px 1px whitesmoke;
+  border: none;
+  font-family: 'Nixie One', cursive;
+  color: white;
+  justify-content:  space-around;
+  padding:  -3px;
+  opacity: 0.7;
+}
+  /* background-color:  rgba(23, 186, 214, 0.753);
+} */
 
 
 .image {
@@ -72,53 +111,70 @@
   .home {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
 
   }
+
+  .navbar {
+    padding-top: 17px;
+    width: 19%;
+    font-size:  8px;
+    justify-content:  center;
+    font-size: 10px;
+  }
   
-  .home h1 {
+  /* .home h1 {
     font-size: 85px;
     text-shadow: 5px 5px rgba(0, 0, 0, 0.733);
     padding-top:  150px;
-}
+} */
   .navbar a {
-    font-size: 12px;
+    width: 90%;
+    font-size: 8px;
+  }
+
+  .h1Home  {
+    font-size: 80px;
+    padding-top: 0px;
+    margin-right: -5px;
+    margin-top:  0px;
+    height: 22vh;
+    margin-left: 0;
+    justify-content: none;
+    text-shadow:  5px 5px rgb(25, 35, 44)
+    
   }
 
   .home h3 {
-    font-size:  25px;
-    padding-top: 14px;
+    font-size:  12px;
+    padding-top: -17px;
+    padding-bottom: none;
+  }
+
+  .h1Up {
+    font-size: 29px;
     padding-bottom: 0;
+    padding-top:0;
   }
 
 }
 
+
+
+
 @media (max-width: 769px) {
-  .navbar a {
-    font-size:  18px;
 
-}
-/* h1 {
-  font-size: 160px;
-  text-shadow: 5px 5px rgba(0, 0, 0, 0.733);
-}
-h3 {
-  font-size:  25px;
-  padding-top:  0;
-
-  } */
+ .navbar {
+padding-top: 33px;
+width: 95%;
+ } 
+  
+.navbar a {
+    font-size:  16px;
 }
 
-/* .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
-
-/* color: rgb(216, 37, 97); */
+.h1home {
+  
+}
+}

@@ -6,13 +6,14 @@ import '../styles/home.css'
 const Home = props => {
     console.log(props)
     return (
-        <div className='home'>
-           
-            <h1>iClimb</h1>
-            <h3>Discover the Top Climbing Rides</h3>
-            <h3>Salt Lake City</h3>
-
-        </div>
+       
+            <div className="home">
+                <h1 className="h1Home">iClimb</h1>
+                <h1 className="h1Up">It's all about UP!</h1>
+                <h3 className="h3Home">Discover the Top Climbing Rides + Salt Lake City</h3>
+                <button onClick={ () => props.history.push('/climb') }>FindAClimb</button>
+            </div>
+       
     
     )
 }

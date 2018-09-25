@@ -32,9 +32,9 @@ export default class Container extends Component {
      render (){
         console.log(this.state)
         return (
-            <div className ="climbContainer">
-                <h1 className="h1Climb">Salt Lake City is home to some of the top canyon rides in the world.  Explore iClimb to learn about some of the top climbing rides in the Salt Lake Valley.  Read iClimb reviews from passionate cylists that climb these epic rides.  If you feel inspired, go ahead and post a review!
-                </h1>
+            <div id="climbContainer">
+                    <h1 className ="introClimbs">Salt Lake City is home to some of the top canyon rides in the world.  Explore iClimb to learn about some of the top climbing rides in the Salt Lake Valley.  Read iClimb reviews from passionate cylists that climb these epic rides.  If you feel inspired, go ahead and post a review!
+                    </h1>
                 <div className="climbBoxes">
                     { this.state.climbData.map(climb => <Climb {...climb } getClimbData={ this.getClimbData }/>)}
                 </div>

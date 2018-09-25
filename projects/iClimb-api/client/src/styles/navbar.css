@@ -1,25 +1,24 @@
-.navbar {
-    font-family: 'Nixie One', cursive;
-    font-size:  12px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
-    width: 33%;
-    margin: auto;
-    color:  whitesmoke;
-    justify-content: space-evenly;
-    text-align:  right;
-    /* /* position: fixed; */
-    /* width: 100vw; */
-    opacity: 0.9;
-    z-index: 2;
-    /* height: 10vh;
-    width: 100vh; */
-    position:  relative;
-    padding-top:  30px;
-    /* background-color: salmon;  */
-    overflow:  hidden;
+* {
+    margin: 0;
 }
+
+.navbar {
+/* margin-right: auto;  */
+/* background-color:  black; */
+font-family: 'Nixie One', cursive;
+font-size:  16px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+position: fixed;
+width:100%;
+border-bottom: 3px solid transparent;
+padding-top:  40px;
+opacity: 0.9;
+z-index: 2;
+}
+
 
 .navbar a {
 
@@ -36,7 +35,10 @@
 }
 
 .navbar a,  a:visited {
-    color: white;
+    /* margin-left: auto; */
+    /* text-shadow:1px 1px   whitesmoke; */
+    color:  whitesmoke;
+    /* color: white; */
     text-decoration: none;
     font-weight: bold;
 }
