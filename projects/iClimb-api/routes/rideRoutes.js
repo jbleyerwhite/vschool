@@ -21,7 +21,6 @@ rideRoutes.route('/')
             return res.status(201).send({ newSavedClimbs: newSavedClimbs, msg:"Your ride comments have been posted" })
     })
 })
-
 //     .post((req, res) => {
 //         console.log(req.body.title)
 //         const newComment = new Climbs (req.body)
@@ -30,11 +29,6 @@ rideRoutes.route('/')
 //             return res.status(201).send({ newSavedClimbs: newSavedClimbs, msg:"Your ride comments have been posted" })
 //     })
 // })
-
-
-    
-
-
 rideRoutes.route('/:id')
     .get((req, res) => {
         Climbs.findById(req.params.id, (err, foundClimbs) => {

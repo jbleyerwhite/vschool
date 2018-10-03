@@ -3,7 +3,7 @@
     }
 
 body {
-    background-color:  rgb(25, 35, 44);
+    background-color: rgb(15, 21, 26);
     /* width: 100%; */
 }
 
@@ -78,6 +78,7 @@ body {
 
 .displayInfo2 {
     grid-column: 2;
+
 }
 
 .climbsDisplay {
@@ -149,6 +150,7 @@ font-size: 8px;
 background: none;
 color:  rgb(240, 70, 112);
 font-family:'Open Sans Condensed', sans-serif; 
+width:  100px;
 margin-top:  10px;
 opacity:  0.9;
 }
@@ -159,6 +161,7 @@ opacity:  0.9;
     background: none;
     color:  rgb(240, 70, 112);
     font-family:'Open Sans Condensed', sans-serif; 
+    width:  100px;
     margin-top:  px;
     opacity: 0.9;
     }

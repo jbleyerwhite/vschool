@@ -37,7 +37,7 @@
 
 .h1Home  {
     font-size: 250px;
-    text-shadow: 10px 10px rgb(25, 35, 44);
+    text-shadow: 10px 10px rgb(15, 21, 26);
     /* text-shadow: 10px 10px rgba(0, 0, 0, 0.733); */
     color:  whitesmoke;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -71,11 +71,14 @@
 }
 
 button {
-  background-color: rgb(25, 35, 44);
+  background-color: rgb(15, 21, 26);
   border: 1px 1px whitesmoke;
   border: none;
-  font-family: 'Nixie One', cursive;
+  font-family:  'Open Sans Condensed', sans-serif;
   color: white;
+  font-size:  15px;
+  width:  75px;
+  height:  40px;
   justify-content:  space-around;
   padding:  -3px;
   opacity: 0.7;

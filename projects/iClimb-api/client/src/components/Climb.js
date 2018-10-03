@@ -55,8 +55,13 @@ class Climb extends Component {
       }
 
       handleClass = () => {
+            // this.handleInputToggle()
+            // if(!this.state.inputToggle){
+               
+              
             this.handleInputToggle()
-          if(this.state.divClass1 === 'climbsDisplay'){
+           
+          if(this.state.divClass1 === 'climbsDisplay' || this.state.divClass2 === "displayInfo1"){
             this.setState({divClass1: 'climbsDisplay1', divClass2: 'displayInfo1'})
           }else {
               this.setState({divClass1: 'climbsDisplay', divClass2: 'displayInfo'})
@@ -80,9 +85,14 @@ class Climb extends Component {
                                     <p>Grade:  { this.props.percentGrade }</p> 
                                 {/* </div> */}
                             </div>
+                            
+                            { this.state.divClass2 === "displayInfo" && 
+                            <React.Fragment>
                             <button className="postButton" onClick={ this.handleInputToggle }><h5>post a review</h5></button>
                             <button className="rideButton" onClick={ this.handleReviewToggle }><h5>ride reviews</h5></button> 
-                        </div>
+                            </React.Fragment>
+                            }
+                            </div>
                   
                     {/* <img src={ this.props.img } alt="" /> */}
                 
@@ -93,6 +103,7 @@ class Climb extends Component {
                             
                     <div className="comments-container">
                     { this.state.inputToggle && 
+                        this.state.divClass2 === "displayInfo" &&
                             <form onSubmit={ this.handleSubmit }>
                                 <input 
                                     type="text" 
