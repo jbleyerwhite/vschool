@@ -131,7 +131,6 @@ footer {
         /* p {
             display: grid;
         } */
-        
         nav {
         flex-direction: column;
         }
@@ -146,6 +145,12 @@ footer {
             padding-left: 0;
         }
 
-@media (max-width: 768) {
+@media (max-width: 900) {
     
+}
+
+@media (max-width: 319) {
+    .footer p {
+        padding-bottom:  8px;
+    }
 }

@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "deadFont";
+  src: url("../fonts/TheDeadAreComing.ttf");
+}
+
+.home {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.counties {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.homeSide {
+  background-color: rgba(12, 4, 4, 0.993);
+  height: 100%;
+  color: white;
+}
+
+.blank {
+  height: 500px;
+  width: 400px;
+}
+
+.homeh1 {
+  color: black;
+  /* font-family: "Bowlby One SC", cursive; */
+  font-family: "deadFont";
+  padding-bottom: 75px;
+  font-size: 7em;
+  padding-left: 60px;
+  text-shadow: 3px 3px 5px white;
+  /* color: rgb(196, 59, 49); */
+}
+
+h4 {
+  color: rgb(155, 48, 41);
+  font-family: "Bowlby One SC", cursive;
+  font-size: 2em;
+  /* text-shadow: 1px 1px 3px white; */
+}
+
+span {
+  color: white;
+  font-family: "deadFont";
+  font-size: 1.5em;
+}

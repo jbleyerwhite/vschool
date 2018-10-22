@@ -36,6 +36,13 @@
 }
 
 
+@media (max-width:  900) {
+
+    .navbar {
+        font-size:  28px;
+    }
+}
+
 @media (max-width: 769px) and (min-width: 321px) {
 
     .navbar {
